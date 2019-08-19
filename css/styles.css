@@ -1,6 +1,7 @@
 body{
     background-color:yellow;
     font-family: "helvetica";
+    margin: 20px 20px;
 }
 .container-fluid{
     background-color: yellow;
