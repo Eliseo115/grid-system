@@ -13,46 +13,53 @@
     <title>Grid System Practice</title>
 </head>
 <body>
-
-    <div class="container"> 
-        <div class="row">
-            
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-1">.col-md-1</div>
-                    <div class="col col-md-2">.col-md-1</div>
-                    <div class="col col-md-10">.col-md-1</div>
-                    <div class="col col-md-12">.col-md-1</div>
-                  </div>
-                  <div class="row">
-                    <div class="col col-md-8">.col-md-8</div>
-                    <div class="col col-md-4">.col-md-4</div>
-                  </div>
-                  <div class="row">
-                    <div class="col col-md-4">.col-md-4</div>
-                    <div class="col col-md-4">.col-md-4</div>
-                    <div class="col col-md-4">.col-md-4</div>
-                  </div>
-                  <div class="row">
-                    <div class="col col-md-6">.col-md-6</div>
-                    <div class="col col-md-6">.col-md-6</div>
-                  </div>
+  <div class="container-fluid">
+    <p class="fluid">[container-fluid]</p>
+    <div class="row">
+      <div class="col header col-md-12">
+        <p class="drop">[header]</p>
+      </div>
+      <div class="col nav col-md-12">
+        <p class="drop navigation">[nav]</p>
+      </div>
     </div>
+    <div class="row">
+      <div class="col content col-md-10">
+        <p class="drop">[content]</p>
+      </div>
+      <div class="col aside col-md-2">
+        <p class="drop">[aside]</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col promo col-md-3">
+        <p class="drop">[promo 1]</p>
+      </div>
+      <div class="col promo col-md-3">
+        <p class="drop">[promo 2]</p>
+      </div>
+      <div class="col promo col-md-3">
+        <p class="drop">[promo 3]</p>
+      </div>
+      <div class="col promo col-md-3">
+        <p class="drop">[promo 4]</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col footer col-md-12">
+        <p class="drop">[footer]</p>
+      </div>
+    </div>
+  </div>
 
-    <!----take home----->
+  <!----take home----->
 
 
-    <!--Jquery (necessary for Bootstrap's JavaScript plugins)-->
-    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!--include all compiled plugins (below), or include individual files as needed-->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- My javascript files-->
-    <script src= "/js/script.js"></script>
+  <!--Jquery (necessary for Bootstrap's JavaScript plugins)-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!--include all compiled plugins (below), or include individual files as needed-->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- My javascript files-->
+  <script src="/js/script.js"></script>
 </body>
 </html>
